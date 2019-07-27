@@ -1,0 +1,270 @@
+
+body {
+  padding:0;
+  margin:0;
+  text-align:center;
+  line-height:1.4em;
+  background-color: #f4f4f4;
+  font:arial,helvetica,san serif;
+
+  }
+/* global*/
+.container{
+  margin:auto;
+  overflow:hidden;
+  width:80%;
+}
+
+
+ ul{
+    margin:0;
+    padding:0;
+}
+h1{
+   font:25px bold tahoma;
+}
+p{
+  font:16px arial;
+  line-height: 1.5em;
+}
+.button_1 {
+    height:38px;
+    background:red;
+    border:0;
+    padding:0 20px;
+    color:white;
+    border-radius:7px;
+    margin-bottom: 10px;
+
+}
+.button_1:hover {
+  background:navy;
+  color:white;
+}
+
+.clr{
+  clear:both;
+}
+.dark{
+   padding:15px;
+   background:#333;
+   color:#ffffff;
+   margin-top:35px;
+   margin-bottom: 10px;
+  }
+.bo, .page-title, .boe{
+   font: 45px bold tahoma;
+   color:navy;
+}
+    /*header*/
+    header {
+    background:#35424a;
+    color:#ffffff;
+    padding-top:5px;
+    min-height:40px;
+    border-bottom:#e8491d 3px solid;
+     }
+
+    header a{
+        color:#ffffff;
+        text-decoration:none;
+        text-transform:uppercase;
+        font-size:16px;
+    }
+
+header li{
+
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+  #branding {
+     float:left;
+  }
+
+  header #branding h1 {
+       margin:0;
+  }
+
+  header nav {
+       float:right;
+       margin-top:10px;
+  }
+
+  header .highlight,   header .current a{
+        color:#e8491d;
+        font:30px bold tahoma;
+  }
+  header a:hover{
+        color:#948282;
+        font-weight:bold;
+  }
+  /*showcase*/
+  #showcase {
+      min-height:400px;
+      background:url("../img/laptop.jpg") no-repeat 0 -200px;
+      text-align:center;
+      color:#ffffff;
+      padding-top: 20px;
+  }
+
+  #showcase h1{
+      margin-top:150px;
+      font-size:57px;
+      margin-bottom:70px;
+
+  }
+
+#showcase p{
+      font-size:21px;
+      text-align:center;
+      color:white;
+}
+
+
+#newsletter {
+     padding:15px;
+     color:#ffffff;
+     background:#000000;
+     border-bottom: 2px solid red;
+}
+
+#newsletter h1{
+     float:left;
+}
+
+#newsletter .highlight2{
+  color:rgb(190, 12, 12);
+}
+
+
+#newsletter form{
+     float:right;
+     margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+     padding:4px;
+     height:25px;
+     width:250px;
+}
+
+/*boxes*/
+#boxes {
+   background:#f6f6f6;
+}
+
+#boxes .box{
+  width:30%;
+  float:left;
+  padding:10px
+  text-align:center;
+ }
+#boxes .bo h1{
+  font-size:30px bold tahoma;
+  text-align:center;
+  margin-top:30px;
+  padding-right: 20px;
+}
+
+#main{
+  background-color:#ddd;
+}
+
+/* sidebar*/
+aside#sidebar{
+  float:right;
+  width:35%;
+  margin-top:10pxs
+}
+
+/*article*/
+article#main-col {
+ float:left;
+ width:60%;
+}
+
+/*boxes*/
+
+#team-section {
+ width:100%;
+ padding:10px;
+ text-align:center;
+ background:rgb(8, 91, 119);
+
+}
+.our a{
+  float:left;
+  width:30%;
+}
+ .our a img{
+  filter:grayscale(100%);
+  transition: 0.4s all;
+  border-radius: 50%;
+}
+.our a:hover>img{
+   filter:none;
+}
+.border{
+  display:block;
+  margin:auto;
+  width:160px;
+  background: #0000;
+  margin-bottom: 40px;
+}
+#lass{
+  background:#333;
+  padding: 20px;
+ }
+ #lass .lal{
+   color:red;
+   font:40px bold tahoma;
+  }
+#lass .let{
+    float:left;
+    width:33.3%;
+  }
+  #formlet input[type="text"], #formlet input[type="number"], #formlet input[type="password"]{
+       padding:6px;
+       height:15px;
+       width:450px;
+  }
+
+#formlet form{
+  padding-left:5px;
+  margin-top:3px;
+  margin-bottom:5px;
+  background-color:#eee;
+  float:left;
+  width: margin-auto;
+}
+
+input.valid {
+   border-color:  green;
+}
+input.invalid {
+  border-color: red;
+}
+input+p{
+  font-family:arial;
+  font-size: 0.9em;
+  font-weight:bold;
+  text-align: center;
+  margin: 0 10px;
+  color:red;
+  height:0;
+  opacity:0;
+}
+input.invalid +p{
+   opacity: 1;
+  height:auto;
+  margin-bottom:10px;
+}
+footer {
+  background:#e8491d;
+  margin-top:20px;
+	text-align:center;
+	padding:20px;
+  color:white;
+  clear:both;
+}

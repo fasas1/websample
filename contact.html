@@ -1,0 +1,83 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title>Xclusive Tech|Contact</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./css/up.css"/>
+<meta name="view port" content="width=device-width,initial-scale=1">
+</head>
+<body>
+ <!--header-->
+   <header>
+       <div class="container">
+       <div id="branding">
+          <h1> <span class="highlight">X</span>clusive Tech</h1>
+    </div>
+        <nav>
+            <ul>
+               <li ><a href="index.html">Home</li></a>
+               <li><a href="about.html">About</li></a>
+               <li class="current"><a href="contact.html">Contact</li></a>
+               <li><a href="services.html">Services</li></a>
+            </ul>
+        </nav>
+    </div>
+   </header>
+
+       <section id="newsletter">
+          <div class="container">
+              <h1> Subscribe To Our <span class="highlight2">Newsletter<span></h1>
+           <form action="process.php">
+              <input type="Email" placeholder="Enter Email...">
+              <button type="Submit" class="button_1">Subscribe</button>
+           </form>
+          </div>
+        </section>
+           <section>
+              <div class="container">
+                <h3 class="jer">Contact Details</h3>
+          <form id="formlet">
+               <div>
+            <label>FirstName</label> <br>
+            <input type="text" id="firstName" name="firstName" placeholder="Your name..">
+             <p >Name must be alphanumeric and be 4-15 character</p>
+          </div>
+             <div>
+            <label>LastName</label> <br>
+            <input type="text" id="lastName" name="lastName" placeholder="Your last name..">
+            <p>Name must be alphanumeric and  be 4-20 character</p>
+          </div>
+             <div>
+             <label for="mail">Email</label> <br>
+             <input type="text" id="email" name="email" placeholder="Your Email..">
+             <p>email must be a valid address e.g me@mydomain.com</p>
+            </div>
+              <div>
+              <label for="password">Password</label> <br>
+              <input type="password" id="password" name="password" placeholder="Your password..">
+              <p>Password must be alphanumeric(@,_and-are also allowed) and be 8-20 character</p>
+            </div>
+            <div>
+              <label for="contact">Phone Number</label> <br>
+              <input type="number" id="telephone" name="telephone" placeholder="Your Phone details..">
+              <p>Telephone must be a valid uk phone number (11 digits)</p>
+            </div>
+            <label for="subject">Message</label> <br>
+               <div>
+            <textarea name="subject" cols='76' rows='12'placeholder="Write something.." ></textarea>
+              </div>
+            <input type="submit" value="Submit" class="button_1" >
+
+          </form>
+        </div>
+      </section>
+
+
+
+          <footer>
+            <p>Xclusive Tech &copy; 2018. All Right Reserved</p>
+          </footer>
+        </div>
+        <script src="validation.js"></script>
+      </body>
+      </html>
